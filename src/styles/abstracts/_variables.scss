@@ -1,0 +1,13 @@
+// Design tokens shared by every partial.
+$color-text: #111827;
+$color-bg: #ffffff;
+$color-accent: #8839ef;
+
+$font-body: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+$font-mono: ui-monospace, Menlo, Consolas, monospace;
+
+$space-sm: 0.5rem;
+$space-md: 1rem;
+$space-lg: 2rem;
+
+$breakpoint-md: 768px;
