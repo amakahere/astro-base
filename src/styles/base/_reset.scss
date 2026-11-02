@@ -1,68 +1,68 @@
 // Modern reset, based on Josh Comeau's and Andy Bell's resets.
 // Lives in a cascade layer so any unlayered style overrides it.
 @layer reset {
-	*,
-	*::before,
-	*::after {
-		box-sizing: border-box;
-	}
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
 
-	* {
-		margin: 0;
-	}
+  * {
+    margin: 0;
+  }
 
-	html {
-		-webkit-text-size-adjust: none;
-		text-size-adjust: none;
-		interpolate-size: allow-keywords;
-	}
+  html {
+    -webkit-text-size-adjust: none;
+    text-size-adjust: none;
+    interpolate-size: allow-keywords;
+  }
 
-	@media (prefers-reduced-motion: no-preference) {
-		html {
-			scroll-behavior: smooth;
-		}
-	}
+  @media (prefers-reduced-motion: no-preference) {
+    html {
+      scroll-behavior: smooth;
+    }
+  }
 
-	body {
-		min-height: 100svh;
-		line-height: 1.5;
-		-webkit-font-smoothing: antialiased;
-	}
+  body {
+    min-height: 100svh;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
 
-	h1,
-	h2,
-	h3,
-	h4 {
-		line-height: 1.1;
-		text-wrap: balance;
-	}
+  h1,
+  h2,
+  h3,
+  h4 {
+    line-height: 1.1;
+    text-wrap: balance;
+  }
 
-	p {
-		text-wrap: pretty;
-		overflow-wrap: break-word;
-	}
+  p {
+    text-wrap: pretty;
+    overflow-wrap: break-word;
+  }
 
-	img,
-	picture,
-	video,
-	canvas,
-	svg {
-		display: block;
-		max-width: 100%;
-	}
+  img,
+  picture,
+  video,
+  canvas,
+  svg {
+    display: block;
+    max-width: 100%;
+  }
 
-	input,
-	button,
-	textarea,
-	select {
-		font: inherit;
-	}
+  input,
+  button,
+  textarea,
+  select {
+    font: inherit;
+  }
 
-	a:not([class]) {
-		text-decoration-skip-ink: auto;
-	}
+  a:not([class]) {
+    text-decoration-skip-ink: auto;
+  }
 
-	:target {
-		scroll-margin-block: 5ex;
-	}
+  :target {
+    scroll-margin-block: 5ex;
+  }
 }

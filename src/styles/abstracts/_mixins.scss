@@ -1,7 +1,7 @@
-@use 'variables' as *;
+@use "variables" as *;
 
 @mixin respond-up($breakpoint: $breakpoint-md) {
-	@media (min-width: $breakpoint) {
-		@content;
-	}
+  @media (min-width: $breakpoint) {
+    @content;
+  }
 }

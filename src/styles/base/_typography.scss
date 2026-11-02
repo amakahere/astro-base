@@ -1,12 +1,12 @@
-@use '../abstracts' as *;
+@use "../abstracts" as *;
 
 body {
-	font-family: $font-body;
-	color: $color-text;
-	background: $color-bg;
+  font-family: $font-body;
+  color: $color-text;
+  background: $color-bg;
 }
 
 code,
 pre {
-	font-family: $font-mono;
+  font-family: $font-mono;
 }

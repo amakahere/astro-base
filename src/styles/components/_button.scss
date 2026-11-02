@@ -1,10 +1,10 @@
-@use '../abstracts' as *;
+@use "../abstracts" as *;
 
 .btn {
-	display: inline-block;
-	padding: $space-sm $space-md;
-	border-radius: 0.5rem;
-	background: $color-accent;
-	color: #fff;
-	text-decoration: none;
+  display: inline-block;
+  padding: $space-sm $space-md;
+  border-radius: 0.5rem;
+  background: $color-accent;
+  color: #fff;
+  text-decoration: none;
 }

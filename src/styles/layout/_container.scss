@@ -1,11 +1,11 @@
-@use '../abstracts' as *;
+@use "../abstracts" as *;
 
 .container {
-	max-width: 72rem;
-	margin-inline: auto;
-	padding-inline: $space-md;
+  max-width: 72rem;
+  margin-inline: auto;
+  padding-inline: $space-md;
 
-	@include respond-up {
-		padding-inline: $space-lg;
-	}
+  @include respond-up {
+    padding-inline: $space-lg;
+  }
 }

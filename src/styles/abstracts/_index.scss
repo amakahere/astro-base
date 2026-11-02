@@ -1,4 +1,4 @@
 // Lets other partials pull in every variable and mixin with one line:
 //   @use '../abstracts' as *;
-@forward 'variables';
-@forward 'mixins';
+@forward "variables";
+@forward "mixins";
