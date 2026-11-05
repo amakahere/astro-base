@@ -1,0 +1,28 @@
+---
+import Welcome from "../../components/Welcome.astro";
+import Layout from "../../layouts/Layout.astro";
+
+const pageTitle = "QR Code";
+
+//Images
+import qrCode from "../../assets/images/image-qr-code.png";
+// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
+// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
+---
+
+<Layout pageTitle={pageTitle}>
+  <div class="QRCode">
+    <div class="QRCode-wrap">
+      <div class="QRCode-image">
+        <img src={qrCode.src} alt="QR Code" class="QRCode-image-src" />
+      </div>
+
+      <div class="QRCode-content">
+        <h1 class="QRCode-heading">Improve your front-end skills by building projects</h1>
+        <p class="QRCode-text">
+          Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
+        </p>
+      </div>
+    </div>
+  </div>
+</Layout>

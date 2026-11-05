@@ -1,0 +1,52 @@
+@use "../abstracts" as *;
+
+$slate-300: #d5e1ef;
+$slate-500: #68778d;
+$slate-900: #1f314f;
+
+.QRCode {
+  background-color: $slate-300;
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+
+  &-wrap {
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 16px;
+    width: 320px;
+    box-shadow: 0 25px 25px 0 rgba(0, 0, 0, 0.05);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  &-image {
+    margin-bottom: 24px;
+
+    &-src {
+      border-radius: 20px;
+    }
+  }
+
+  &-heading {
+    color: $slate-900;
+    font-family: Outfit;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 16px;
+    text-align: center;
+  }
+
+  &-text {
+    color: $slate-500;
+    font-family: Outfit;
+    font-size: 15px;
+    letter-spacing: 0.2px;
+    line-height: 1.4;
+    margin-bottom: 16px;
+    text-align: center;
+  }
+}

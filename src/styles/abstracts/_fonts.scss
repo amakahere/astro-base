@@ -1,0 +1,20 @@
+// Outfit
+@font-face {
+  font-display: swap;
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400;
+  src:
+    url("../../assets/fonts/outfit/outfit-v15-latin-regular.woff2") format("woff2"),
+    url("../../assets/fonts/outfit/outfit-v15-latin-regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 700;
+  src:
+    url("../../assets/fonts/outfit/outfit-v15-latin-700.woff2") format("woff2"),
+    url("../../assets/fonts/outfit/outfit-v15-latin-700.ttf") format("truetype");
+}
