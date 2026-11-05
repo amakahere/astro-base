@@ -13,7 +13,7 @@ $slate-900: #1f314f;
   &-wrap {
     background-color: #fff;
     border-radius: 20px;
-    padding: 16px;
+    padding: 16px 16px 40px;
     width: 320px;
     box-shadow: 0 25px 25px 0 rgba(0, 0, 0, 0.05);
     position: absolute;
@@ -48,5 +48,7 @@ $slate-900: #1f314f;
     line-height: 1.4;
     margin-bottom: 16px;
     text-align: center;
+    padding-left: 16px;
+    padding-right: 16px;
   }
 }
